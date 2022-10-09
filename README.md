@@ -4,6 +4,7 @@
 Using node v18.10.0 (64-bit)
 # install
 npm install
-#
-npm run serve
+# start
+npm run start
+# build
 npm run build
