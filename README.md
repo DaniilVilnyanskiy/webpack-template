@@ -1,4 +1,8 @@
 # webpack-template
 Это мой шаблон webpack
-# webpack-template
-using node v18.10.0 (64-bit)
+# node version
+Using node v18.10.0 (64-bit)
+# install
+npm install
+npm run serve
+npm run build
