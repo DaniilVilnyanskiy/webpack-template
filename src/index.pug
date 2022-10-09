@@ -1,0 +1,10 @@
+include pug/template
+
+block variables
+block content
+    .container
+        h1 Hello
+        .img-block
+            h2 World
+            +img('img')
+        include components/main-page/main-page

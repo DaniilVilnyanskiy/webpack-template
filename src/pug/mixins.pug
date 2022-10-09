@@ -1,0 +1,7 @@
+mixin img(name)
+    img(src=require(`../src/images/${name}.png`))
+
+mixin icon(name, classNames)
+    - const classList = `svg-icon icon-${name} ${classNames || ''}`;
+    svg(class=classList)
+        use(href="/assets/svg/sprite.svg#" + name)
