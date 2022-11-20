@@ -82,6 +82,11 @@ module.exports = {
                     }
                 }
             },
+            {
+                test: /\.ts$/,
+                use: "ts-loader",
+                exclude: /node_modules/,
+            },
         ],
     },
     devServer: {
@@ -94,6 +99,9 @@ module.exports = {
                 usePolling: true
             }
         }
+    },
+    resolve: {
+        extensions: [".ts", ".js"],
     },
     stats: 'errors-only'
 }

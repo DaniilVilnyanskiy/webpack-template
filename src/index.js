@@ -1,8 +1,5 @@
+import './js/main.ts'
 import './styles/index.scss'
-
-const test = {
-    test1: 'test1'
-}
-console.log(test);
-
 import './components/components'
+
+console.log('index.js completed')
