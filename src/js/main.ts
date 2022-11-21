@@ -227,7 +227,7 @@ class TreeStore {
 
 }
 const ts = new TreeStore(items);
-ts.tests()
+// ts.tests()
 
 // console.log(ts.getAll());
 // console.log(ts.getItem(2));
@@ -236,3 +236,26 @@ ts.tests()
 // console.log(ts.getAllParents(3));
 
 
+//---------------------------------------------------------------------------
+
+
+// const urls = [
+//     'https://jsonplaceholder.typicode.com/posts/?_start=0&_limit=7',
+//     'https://jsonplaceholder.typicode.com/comments/?_start=0&_limit=7',
+//     'https://jsonplaceholder.typicode.com/albums/?_start=0&_limit=7',
+//     'https://jsonplaceholder.typicode.com/photos/?_start=0&_limit=7'
+// ]
+// const url = [urls[0]]
+// const options = {
+//     method: 'GET',
+// }
+//
+// const request = urls.map(url => fetch(url, options))
+// const request2 = urls.map(() => fetch(urls[0], options))
+//
+// Promise.all(request2)
+//     .then(res => response(res))
+//
+// const response = (val: Response[]) => {
+//     console.log(val);
+// }
